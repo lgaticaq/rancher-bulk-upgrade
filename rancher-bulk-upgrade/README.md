@@ -2,9 +2,7 @@
 
 [![dockeri.co](http://dockeri.co/image/lgatica/rancher-bulk-upgrade)](https://hub.docker.com/r/lgatica/rancher-bulk-upgrade/)
 
-[![Build Status](https://travis-ci.org/lgaticaq/rancher-bulk-upgrade.svg?branch=master)](https://travis-ci.org/lgaticaq/rancher-bulk-upgrade)
-
-> Docker Image with alpine linux and rancher-bulk-upgrade
+> Docker Image for bulk upgrade rancher services from a json
 
 NOTE: Only heroku support
 
