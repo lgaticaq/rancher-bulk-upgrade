@@ -10,7 +10,7 @@ NOTE: Only heroku support
 
 Supported tags and respective Dockerfile links
 
-- 1.0.0, latest ([Dockerfile](https://github.com/lgaticaq/rancher-bulk-upgrade/blob/master/rancher-bulk-upgrade/Dockerfile))
+- 1.0.1, latest ([Dockerfile](https://github.com/lgaticaq/rancher-bulk-upgrade/blob/master/rancher-bulk-upgrade/Dockerfile))
 
 ```bash
 docker run --rm -e RANCHER_URL=$RANCHER_URL -e RANCHER_ACCESS_KEY=$RANCHER_ACCESS_KEY -e RANCHER_SECRET_KEY=$RANCHER_SECRET_KEY -e SERVICES='{"environments":[{"name":"Default","stacks":[{"name":"myStack","services":[{"name":"myService","image":"my-registry/my-service:latest"}]}]}]}' lgatica/rancher-bulk-upgrade:latest
