@@ -1,0 +1,23 @@
+---
+.catalog:
+  name: Rancher Bulk Upgrade
+  version: v1.0.0
+  description: |
+    Rancher template for bulk upgrade services from a json
+  questions:
+    - variable: SERVICES
+      label: SERVICES
+      description: |
+        A json with services info. Ex: {"environments":[{"name":"Default","stacks":[{"name":"myStack","services":[{"name":"myService","image":"my-registry/my-service:latest"}]}]}]}
+      type: multiline
+      required: true
+    - variable: HOST_LABEL
+      label: Host label for deploy container (Optional)
+      type: string
+      required: false
+
+version: '2'
+services:
+  rancher-bulk-upgrade:
+    scale: 1
+    retain_ip: true

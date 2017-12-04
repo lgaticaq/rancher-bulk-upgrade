@@ -1,0 +1,10 @@
+---
+name: Rancher Bulk Upgrade
+description: |
+  Rancher template for bulk upgrade services from a json
+version: v1.0.0
+category: Orchestration
+maintainer: Leonardo Gatica <lgatica@protonmail.com>
+projectURL: http://github.com/lgaticaq/rancher-bulk-upgrade
+labels:
+  io.rancher.orchestration.supported: 'cattle,swarm'
