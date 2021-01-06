@@ -1,4 +1,4 @@
-FROM cdrx/rancher-gitlab-deploy:latest@sha256:f5e913af3df805b9fd0f50ba66fe052fe5ea2bccd6a15e9aea95b78f3e94d430
+FROM cdrx/rancher-gitlab-deploy:latest@sha256:2c4fcd7bb9fbf740c99297a5e2787e8dc289e91bb65e56a1b12c0f33c38c3904
 
 LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 
